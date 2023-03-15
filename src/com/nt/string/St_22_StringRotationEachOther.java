@@ -1,6 +1,6 @@
 package com.nt.string;
 
-public class ST_22_StringRotationEachOther {
+public class St_22_StringRotationEachOther {
 
 	//T(c)=O(N)   and S(C)=O(N)
 	public static boolean areRotations(String s1, String s2) {
