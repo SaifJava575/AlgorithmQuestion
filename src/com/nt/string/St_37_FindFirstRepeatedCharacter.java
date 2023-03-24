@@ -1,7 +1,6 @@
 package com.nt.string;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class St_37_FindFirstRepeatedCharacter {
@@ -19,7 +18,7 @@ public class St_37_FindFirstRepeatedCharacter {
 	}
 
 	static String firstRepChar(String S) {
-		HashMap<Character, Integer> map = new LinkedHashMap<>();
+		LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
 		String response = "";
 
 		for (int i = 0; i < S.length(); i++) {
