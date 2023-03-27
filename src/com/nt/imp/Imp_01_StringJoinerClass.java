@@ -42,10 +42,12 @@ public class Imp_01_StringJoinerClass {
 	}
 
 	public static void main(String[] args) {
-        String str="Saifuddin.pdf";
-        String out="SaifuddinCompress.pdf";
-        str.replaceAll(str, out);
-        System.out.println("After replacing the String is::"+str);
+        
+        String s1="[{Saifuddin.pdf}]";
+        System.out.println(s1);
+        int n=s1.length();
+        System.out.println(s1.substring(2, n-2));
+        
         
 	}
 
