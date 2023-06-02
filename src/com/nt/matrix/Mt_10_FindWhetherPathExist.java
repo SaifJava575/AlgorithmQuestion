@@ -1,12 +1,11 @@
 package com.nt.matrix;
 
-public class Mt_FindWhetherPathExist {
+public class Mt_10_FindWhetherPathExist {
 
 	public static boolean findPath(int[][] grid, boolean vis[][], int i, int j) {
 		if (i < 0 || j >= grid[0].length || i >= grid.length || j < 0 || grid[i][j] == 0 || vis[i][j] == true) {
 			return false;
 		}
-		// destination reached
 		if (grid[i][j] == 2) {
 			return true;
 		}
