@@ -7,9 +7,9 @@ public class Tr_12_MaxPathSumBetTwoSpecialNodes {
 	// T(c)=O(N) and S(C)=O(Height of the Tree)
 	public static int maxPathSum(Node root) {
 		int h = maxPathSumUtil(root);
-		if (root.left == null || root.right == null) {
+		if (root.left == null || root.right == null) 
 			res = Math.max(res, h);
-		}
+		
 		return res;
 	}
 
